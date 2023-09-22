@@ -1,0 +1,35 @@
+:root {
+  --color1: #f4f4f4;
+  --color2: var(#8f9bb3);
+  --color3: #ed6620;
+  --color4: #ffebe1;
+  --color5: #f3db93;
+  --color6: #f2f3fd;
+  --color7: #fff0e9;
+  --color8: rgba(97, 97, 97, 0.7);
+  --color9: #298cff;
+  --color10: #edeffc;
+  --color11: #a7afea;
+  --color12: #616161;
+  --color13: rgba(255, 255, 255, 0.7);
+  --color14: rgba(255, 255, 255, 0.6);
+  --color15: #fff;
+  --color16: #ffebe1;
+  --color17: #dedede;
+  --color18: rgba(0, 0, 0, 0.7);
+  --color19: #eb6e34;
+  --color20: #252d5d;
+  --color21: #555;
+  --color22: #686868;
+  --color23: #e75658;
+  --color24: #252d5d;
+
+  --background1: var(--pimary-500-default, #36f);
+  --background2: var(--danger-400, #ff708d);
+  --background5: var(--text-color-white-ag, #fff);
+  --background7: var(--basic-200, #f7f9fc);
+  --background8: var(--danger-100, #fff2f2);
+  --background9: var(--transparent-basic-white-8, #ffffff14);
+  --background10: var(--transparent-basic-white-16, #ffffff29);
+  --background11: var(--basic-color, #8f9bb3);
+}
