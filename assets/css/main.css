@@ -498,6 +498,7 @@ header {
 
 .recommended-for-you__card-img {
   transition: all 0.5s ease;
+  border-radius:5px;
 }
 
 .recommended-for-you__card:hover .recommended-for-you__card-img img {
@@ -762,7 +763,7 @@ header {
   border-bottom: none;
   transform: rotate(45deg);
   position: absolute;
-  right: 172px;
+  right: 50%;
   bottom: -9px;
   order: 10;
   background-color: white;
@@ -917,6 +918,7 @@ footer a:hover {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  width: 30%;
 }
 
 .footer-contact__item {
@@ -1005,7 +1007,9 @@ footer a:hover {
   .featured-categories__item:nth-child(2n),
   .recommended-for-you__play-icon,
   .get-the-app,
-  .footer-contact {
+  .footer-contact,
+  .footer-bar__links,
+  .footer__logo {
     display: none;
   }
   /* ! Display Block ------------------------------------------------------------->*/
@@ -1154,7 +1158,7 @@ footer a:hover {
   }
 
   .recent-reviews__caret-up {
-    right: 160px;
+    right: 50%;
   }
   /* footer */
 
@@ -1197,12 +1201,18 @@ footer a:hover {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    width: 60%;
+    margin: 0 auto;
+    align-items:center;
+    margin-bottom: 20px;
   }
 
   .footer-contact__item {
     display: flex;
     gap: 8px;
+    justify-content: center;
   }
+
 
   .footer-support {
     display: flex;
@@ -1227,5 +1237,9 @@ footer a:hover {
 
   .footer-support__img {
     display: none;
+  }
+
+  .footer-bar {
+    justify-content: center;
   }
 }
